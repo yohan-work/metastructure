@@ -1,0 +1,19 @@
+{
+  "name": "@repo/theme",
+  "version": "0.1.0",
+  "private": true,
+  "sideEffects": ["*.css", "src/*.css"],
+  "exports": {
+    ".": "./src/index.ts",
+    "./base.css": "./src/base.css",
+    "./theme-soyo.css": "./src/theme-soyo.css",
+    "./globals.css": "./src/globals.css"
+  },
+  "scripts": {
+    "build": "tsc --noEmit",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  }
+}

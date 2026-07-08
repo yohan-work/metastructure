@@ -1,0 +1,38 @@
+:root {
+  --soyo-color-page: #202023;
+  --soyo-color-surface: #171719;
+  --soyo-color-surface-raised: #242428;
+  --soyo-color-muted: #303036;
+  --soyo-color-border: #3c3c43;
+  --soyo-color-text: #ededf1;
+  --soyo-color-text-muted: #aaaab2;
+  --soyo-color-brand: #e8e9ed;
+  --soyo-color-brand-strong: #ffffff;
+  --soyo-color-accent: #79a7ff;
+  --soyo-color-accent-soft: #343b4d;
+  --soyo-color-success: #7ccf9b;
+  --soyo-color-warning: #efc06b;
+  --soyo-color-danger: #f27e75;
+
+  --soyo-radius-sm: 6px;
+  --soyo-radius-md: 8px;
+  --soyo-radius-lg: 10px;
+
+  --soyo-space-page-x: clamp(18px, 4vw, 48px);
+  --soyo-space-section-y: clamp(48px, 7vw, 96px);
+  --soyo-shadow-soft: none;
+}
+
+[data-theme='dark'] {
+  --soyo-color-page: #202023;
+  --soyo-color-surface: #171719;
+  --soyo-color-surface-raised: #242428;
+  --soyo-color-muted: #303036;
+  --soyo-color-border: #3c3c43;
+  --soyo-color-text: #ededf1;
+  --soyo-color-text-muted: #aaaab2;
+  --soyo-color-brand: #e8e9ed;
+  --soyo-color-brand-strong: #ffffff;
+  --soyo-color-accent: #79a7ff;
+  --soyo-color-accent-soft: #343b4d;
+}
