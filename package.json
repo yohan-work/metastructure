@@ -1,0 +1,27 @@
+{
+  "name": "astryx-ui-kit",
+  "version": "0.1.0",
+  "private": true,
+  "packageManager": "pnpm@10.30.0",
+  "scripts": {
+    "dev": "pnpm --filter playground-next dev",
+    "build": "pnpm -r build",
+    "typecheck": "pnpm -r typecheck",
+    "astryx": "node scripts/print-astryx-info.mjs",
+    "astryx:components": "node scripts/print-astryx-info.mjs components",
+    "astryx:tokens": "node scripts/print-astryx-info.mjs tokens",
+    "astryx:templates": "node scripts/print-astryx-info.mjs templates",
+    "astryx:doctor": "node scripts/print-astryx-info.mjs doctor",
+    "check:ui": "node scripts/check-ui.mjs"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@types/react": "^19.0.2",
+    "@types/react-dom": "^19.0.2",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "@astryxdesign/core": "^0.1.4",
+    "@astryxdesign/theme-neutral": "^0.1.4"
+  }
+}
